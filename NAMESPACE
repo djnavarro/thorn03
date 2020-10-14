@@ -2,9 +2,6 @@
 
 export("%>%")
 export(thorn03)
-import(ggforce)
-import(ggplot2)
-import(voronoise)
 importFrom(Rcpp,sourceCpp)
 importFrom(magrittr,"%>%")
 useDynLib(thorn03)

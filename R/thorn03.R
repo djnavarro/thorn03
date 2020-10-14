@@ -86,6 +86,7 @@ thorn03 <- function(shade, file = NULL, cells = 20000, layers = 5, threshold = .
   ) +
     voronoise::geom_voronoise(
       perturb = sift(threshold),
+      stat = voronoise::StatVoronoiseTile,
       max.radius = NULL,
       radius = 0,
       expand = 0
@@ -117,11 +118,6 @@ make_filename <- function (file, shade) {
   }
   return(file)
 }
-
-#' @import voronoise
-#' @import ggforce
-#' @import ggplot2
-NULL
 
 #' @useDynLib thorn03
 NULL
