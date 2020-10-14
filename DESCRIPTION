@@ -1,0 +1,26 @@
+Package: thorn03
+Title: Makes a Thorns Image
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Danielle",
+           family = "Navarro",
+           role = c("aut", "cre"),
+           email = "d.navarro@unsw.edu.au",
+           comment = c(ORCID = "0000-0001-7648-6578"))
+Description: Makes a thorns image.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Remotes:
+    djnavarro/voronoise    
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp,
+    magrittr,
+    ggplot2,
+    ggforce,
+    dplyr,
+    voronoise
