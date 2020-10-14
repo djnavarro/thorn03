@@ -24,3 +24,5 @@ Imports:
     ggforce,
     dplyr,
     voronoise
+URL: https://github.com/djnavarro/thorn03
+BugReports: https://github.com/djnavarro/thorn03/issues
